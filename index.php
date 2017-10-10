@@ -29,7 +29,7 @@ echo " in the first string <br></br>";
 echo "We can put two strings together: <br/><br/>";
 echo ($mytext1). " " .($mytext2). "\n";
 
-$part = substr($mytext1,$startpoint,$length)
+$part = substr($mytext1,$startpoint,$length);
 
 
 $browser = $_SERVER['HTTP_USER_AGENT'];
