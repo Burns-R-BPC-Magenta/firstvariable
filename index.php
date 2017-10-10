@@ -26,6 +26,8 @@ echo "the word morning in the first string starts at position ";
 echo $posworld + 1;
 echo " in the first string <br></br>";
 
+echo "We can put two strings together: <br/><br/>";
+echo ($mytext1). " " .($mytext2). "\n";
 
 
 ?>
