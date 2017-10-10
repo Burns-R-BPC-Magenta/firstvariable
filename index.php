@@ -29,7 +29,7 @@ echo " in the first string <br></br>";
 echo "We can put two strings together: <br/><br/>";
 echo ($mytext1). " " .($mytext2). "\n";
 
-$part = substr($mytext1,$startpoint 1,$length 4)
+$part = substr($mytext1,$startpoint,$length)
 echo $part
 
 ?>
