@@ -30,7 +30,7 @@ echo "We can put two strings together: <br/><br/>";
 echo ($mytext1). " " .($mytext2). "\n";
 echo "<br/><br/>";
 
-$part = substr($mytext1,$startpoint,$length);
+$part = substr($mytext1,$startpoint 0,$length 4);
 echo $part;
 
 
