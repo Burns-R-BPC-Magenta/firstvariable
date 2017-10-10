@@ -32,4 +32,8 @@ echo ($mytext1). " " .($mytext2). "\n";
 $part = substr($mytext1,$startpoint,$length)
 
 
+$browser = $_SERVER['HTTP_USER_AGENT'];
+echo "Your browser is: $browser";
+
+
 ?>
