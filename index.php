@@ -30,9 +30,6 @@ echo "We can put two strings together: <br/><br/>";
 echo ($mytext1). " " .($mytext2). "\n";
 echo "<br/><br/>";
 
-$part = substr($mytext1,$startpoint 1,$length 4);
-echo $part;
-
 
 $browser = $_SERVER['HTTP_USER_AGENT'];
 echo "Your browser is: $browser";
